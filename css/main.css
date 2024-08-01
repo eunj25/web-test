@@ -609,7 +609,7 @@ section.logo-list .logo-box {
   animation: scroll 20s linear infinite;
 }
 section.logo-list .logo-img {
-  width: 11vw;
+  width: 8vw;
 }
 @keyframes scroll {
   0% {
