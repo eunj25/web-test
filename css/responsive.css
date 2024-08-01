@@ -347,7 +347,6 @@ section.intro .inner {
 section.intro .inner h1 {
   padding: 0 12px;
   font-size: 20px;
-  text-wrap: balance;
 }
 section.intro .inner h2 {
   font-size: 0.875rem;
