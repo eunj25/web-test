@@ -31,7 +31,7 @@
   --Green400: #ACF4BA;
 
   /* === font === */
-  --dis-01: 3.75rem;
+  /* --dis-01: 3.75rem;
   --dis-02: 3.125rem;
   --dis-03: 2.5rem;
   --hd-02: 1.75rem;
@@ -39,7 +39,16 @@
   --hd-04: 1.5rem;
   --hd-05: 1.25rem;
   --sub-hd-01: 1.125rem;
-  --body-01: 0.875rem;
+  --body-01: 0.875rem; */
+  --dis-01: 3.125vw;
+  --dis-02: 2.604vw;
+  --dis-03: 2.083vw;
+  --hd-02: 1.458vw;
+  --hd-03: 1.354vw;
+  --hd-04: 1.25vw;
+  --hd-05: 1.042vw;
+  --sub-hd-01: 0.938vw;
+  --body-01: 0.729vw;
 
   /* font width */
   --font-b: 700;
@@ -65,15 +74,15 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Pretendard Variable" !important;
-  font-size: var( --body-01)  !important;
+  font-size: 16  !important;
   font-weight: var(--font-r) !important;
   line-height: 1.5 !important;
   color: var(--Gray1300);
   background-color: var(--WH);
 }
-
 section .inner {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 72.5000vw;
   margin: auto;
   box-sizing: border-box;
 }
@@ -194,7 +203,8 @@ section .inner h2 b {
 /* ********* section.intro ********* */
 section.intro {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+  height: 923px;
   position: relative;
   background: url(/images/intoro.png) no-repeat;
   background-size: cover;
@@ -203,8 +213,8 @@ section.intro {
 section.intro .photo {
   width: 852px;
   position: absolute;
-  right: 140px;
-  bottom: 140px;
+  right: 5%;
+  bottom: 9%;
 }
 section.intro .inner {
   font-size: var(--dis-01);
@@ -228,7 +238,7 @@ section.banner .inner {
   align-items: self-end;
   justify-content: space-between;
   gap: 100px;
-  padding: 200px 0;
+  padding: 100px;
 }
 section.banner .title  {
   flex: 1;
@@ -254,53 +264,7 @@ section.banner .desc {
 
 /* section.ani-banner */
 section.ani-banner {
-  background-color: var(--Blue300);
-}
-section.ani-banner .inner {
-  display: flex;
-  justify-content: center;
-  padding: 200px 0;
-  align-items: center;
-  gap: 75px;
-  position: relative;
-}
-section.ani-banner .inner::after {
-  content: '';
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  left: 13%;
-  top: 25%;
-  background-image: url(/images/ani_banner_bg.png);
-  width: 224px;
-  height: 224px;
-  z-index: 0;
-}
-section.ani-banner h2 {
-  margin-bottom: 0;
-}
-section.ani-banner .title {
-  border-bottom: 1px solid #C9E4FF;
-  padding-right: 200px;
-  height: 90px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-section.ani-banner .title h2 {
-  font-size: 60px;
-  animation: typo 8s linear infinite;
-}
-@keyframes typo {
-  0%, 35% {
-    transform: translateY(0); /* 처음 위치에서 멈춤 */
-  }
-  45%, 75% {
-    transform: translateY(-100%); /* 두 번째 위치에서 멈춤 */
-  }
-  85%, 100% {
-    transform: translateY(-200%); /* 위로 이동 */
-  }
+  background-color: rgba(255, 0, 0, 0.329);
 }
 
 /* ********* section.paper ********* */
@@ -314,6 +278,7 @@ section.paper .items {
   gap: 40px;
 }
 section.paper .item {
+  width: calc(100%/4);
   border-radius: var(--24px, 24px);
   border: var(--2px, 2px) solid var(--Gray500);
   background: rgba(255, 255, 255, 0.50);
@@ -322,7 +287,7 @@ section.paper .item {
   justify-content: space-between;
   padding: var(--card-padding);
   gap: 24px;
-  flex: 1;
+  /* flex: 1; */
 }
 section.paper .item .icon {
   width: 95px;
@@ -363,6 +328,7 @@ section.table p {
   padding: 40px;
 }
 section.table .table-box {
+  /* min-width: 500px; */
   width: 964px;
   margin: auto;
 }
@@ -374,7 +340,7 @@ section.video {
   text-align: center;
 }
 section.video .inner {
-  padding: 200px 0;
+  padding: 200px 30px;
 }
 section.video:nth-child(even) {
   background-color: var(--wh);
@@ -486,9 +452,6 @@ section.video .list ul li {
 }
 
 /* content */
-section.video .content {
-  padding-top: 100px;
-}
 section.video .content .item {
   display: flex;
   justify-content: space-between;
@@ -519,8 +482,8 @@ section.video .content .item .photo > div {
 section.video .content .item .photo::after {
   position: absolute;
   content: '';
-  bottom: 30px;
-  right: -50px;
+  bottom: -6%;
+  right: 5%;
 }
 section.video .content .item:nth-child(1) .photo::after {
   background: url(/images/structurer_icon.png);
@@ -539,7 +502,7 @@ section.video .content .item:nth-child(3) .photo::after {
   background-size: cover;
   width: 150px;
   height: 101px;
-  left: -50px;
+  left: 5%;
 }
 section.video .content .item:nth-child(4) .photo::after {
   background: url(/images/generator_icon.png);
