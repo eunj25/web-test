@@ -10,22 +10,33 @@
   section.table .inner {
     padding-top: 5vw;
   }
-  section.video .content .item .photo > div {
-    height: 27.0833vw;
+  section.paper .items {
+    flex-wrap: wrap;
   }
   section.paper .item {
-    width: 331px;
-    flex-wrap: wrap;
+    width: calc(100%/2 - 2vw);
+    min-height: 30vw;
+  }
+  section.video .inner {
+    padding: 100px 8vw;
+  }
+  section.paper .item .item-title {
+    font-size: var(--hd-01)
   }
   section.video .list .tit {
     font-size: var(--hd-02)
-
   }
   section.video .list ul li {
     font-size: var(--hd-04)
   }
   section.video .list .tit::before {
     font-size: var(--hd-02)
+  }
+  section.paper .item .item-desc {
+    font-size: var(--hd-03)
+  }
+  section.short-banner .inner {
+    padding: 85px 5vw;
   }
 }
 
@@ -156,7 +167,7 @@ section.intro .inner .btn-box {
     font-size: 24px;
   }
   section.paper .item .item-desc {
-    font-size: 18px;
+    font-size: 20px;
   }
   section.paper .comment h2 {
     font-size: 24px;
@@ -308,7 +319,7 @@ section.intro .inner .btn-box {
     text-align: center;
   }
   .badge {
-    font-size: 40px;
+    font-size: 10px !important;
   }
   button {
     font-size: 12px;
@@ -438,15 +449,18 @@ section.intro .inner .btn-box {
     padding: 0 0.75rem;
   }
   section.paper .item { 
-    min-width: 331px;
+    min-width: 80%;
     max-width: 100%;
   }
   section.paper .item .item-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   section.paper .comment h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
+  }
+  section.paper .item .item-desc {
+    font-size: 1.2rem;
   }
 /* ********* section.video ********* */
   section.video .inner {
@@ -458,6 +472,12 @@ section.intro .inner .btn-box {
     text-align: left;
     padding: 0 3vw;
     margin-bottom: 3.125rem;
+  }
+  section.video .title h2 {
+    font-size: 40px;
+  }
+  section.video .title h2 .badge {
+    font-size: 40px !important;
   }
   section.video .content .item .photo > div {
     min-width: 336px;
@@ -479,14 +499,15 @@ section.intro .inner .btn-box {
     align-items: flex-start;
     gap: .625rem;
   }
-  section.video .card .desc button {
+  section.video  button {
     margin: 0;
+    font-size: 0.875rem;
   }
   section.video .list {
     gap: 1.25rem;
   }
   section.video .list .tit {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     flex-wrap: wrap;
     margin-bottom: 2vw;
   }

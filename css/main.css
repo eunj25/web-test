@@ -43,6 +43,7 @@
   --dis-01: 3.125vw;
   --dis-02: 2.604vw;
   --dis-03: 2.083vw;
+  --hd-01: 1.85vw;
   --hd-02: 1.458vw;
   --hd-03: 1.354vw;
   --hd-04: 1.25vw;
@@ -145,7 +146,7 @@ button.btn:hover {
 button.btnbl {
   color: var(--Blue800);
   background: var(--Blue400);
-  font-size: 14px;
+  font-size: 0.9722vw;
   font-weight: 600;
   border: none;
 }
@@ -158,7 +159,7 @@ button.btnwh {
   color: var(--Blue800);
   background: var(--WH);
   border: none;
-  font-size: 14px;
+  font-size: 0.9722vw;
   font-weight: 600;
 }
 button.btnwh:hover {
@@ -208,7 +209,7 @@ section.intro {
   position: relative;
   background: url(/images/intoro.png) no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: right 20% bottom;
   /* background-color: #001435; */
 }
 section.intro .photo {
@@ -225,7 +226,7 @@ section.intro .inner {
   color: var(--Blue400);
 }
 section.intro .inner .badge {
-  font-size: 16px;
+  font-size: 1.1111vw;
   padding: var(--2px, 2px) var(--8px, 8px);
   border-radius: var(--4px, 4px);
   margin-left: 10px;
@@ -276,7 +277,7 @@ section.paper .items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 40px;
+  gap: 2vw;
 }
 section.paper .item {
   width: calc(100%/4);
@@ -288,7 +289,7 @@ section.paper .item {
   justify-content: space-between;
   padding: var(--card-padding);
   gap: 24px;
-  /* flex: 1; */
+  min-height: 20vw;
   flex-wrap: nowrap;
 }
 section.paper .item .icon {
@@ -302,7 +303,7 @@ section.paper .item .item-title {
 }
 section.paper .item .item-desc {
   color: var(--Gray1100);
-  font-size: var(--sub-hd-01);
+  font-size: var(--hd-06);
   min-height: 110px;
 }
 section.paper .comment {
@@ -343,7 +344,7 @@ section.video {
   text-align: center;
 }
 section.video .inner {
-  padding: 100px 30px;
+  padding: 100px 0;
 }
 section.video:nth-child(even) {
   background-color: var(--wh);
@@ -481,9 +482,9 @@ section.video .content .item .photo > div {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
   border-radius: var(--24px, 24px);
   width: 100%;
-  min-width: 200px;
-  max-width: 705px;
-  height: 390px;
+  min-width: 13.8889vw;
+  max-width: 48.9583vw;
+  height: 22vw;
   overflow: hidden;
 }
 section.video .content .item .photo::after {
@@ -684,7 +685,6 @@ section.short-banner::before {
   transform: translate(-50%, -50%);
 }
 section.short-banner .inner {
-  padding: 85px 5vw;
   display: flex;
   justify-content: space-between;
   align-items: end;
