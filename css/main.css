@@ -291,6 +291,7 @@ section.paper .item {
   gap: 24px;
   min-height: 20vw;
   flex-wrap: nowrap;
+  align-self: stretch;
 }
 section.paper .item .icon {
   width: 95px;
@@ -304,7 +305,8 @@ section.paper .item .item-title {
 section.paper .item .item-desc {
   color: var(--Gray1100);
   font-size: var(--hd-06);
-  min-height: 110px;
+  /* min-height: 150px; */
+  min-height: 5.4167vw;
 }
 section.paper .comment {
   text-align: center;

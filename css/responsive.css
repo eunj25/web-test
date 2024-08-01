@@ -33,7 +33,8 @@
     font-size: var(--hd-02)
   }
   section.paper .item .item-desc {
-    font-size: var(--hd-03)
+    font-size: var(--hd-03);
+    min-height: 10.4167vw;
   }
   section.short-banner .inner {
     padding: 85px 5vw;
