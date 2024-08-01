@@ -43,6 +43,9 @@
   .badge {
     font-size: 40px;
   }
+  button {
+    font-size: 18px;
+  }
 /* ********* section.intro ********* */
 section.intro {
   background-position: center;
@@ -152,6 +155,9 @@ section.intro .inner .btn-box {
   section.paper .item .item-title {
     font-size: 24px;
   }
+  section.paper .item .item-desc {
+    font-size: 18px;
+  }
   section.paper .comment h2 {
     font-size: 24px;
   }
@@ -183,6 +189,9 @@ section.intro .inner .btn-box {
     gap: 40px;
   }
   section.video .list .tit {
+    font-size: 1.125rem;
+  }
+  section.video .list .tit::before {
     font-size: 1.125rem;
   }
   section.video .list ul li {
@@ -247,6 +256,9 @@ section.intro .inner .btn-box {
     width: calc((100%/2) - 14px);
     min-width: 163px;
     max-width: 438px;
+  }
+  section.card-list .card .tit h3 {
+    font-size: 1.2rem;
   }
   section.event .tab-box a {
     font-size: 1.5rem;
@@ -481,6 +493,7 @@ section.intro .inner .btn-box {
   section.video .list .tit::before {
     left: -40px;
     top: 0px;
+    font-size: 1.125rem;
 }
   section.video .list ul li {
     font-size: 0.875rem;
