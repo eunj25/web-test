@@ -335,10 +335,11 @@ section.intro {
   height: 504px;
 }
 section.intro .photo {
-  width: 100%;
+  width: 80%;
   min-width: 295px;
-  right: 0%;
+  right: -30%;
   top: 10%;
+  transform: translate(-50%);
 }
 section.intro .inner {
   font-size: 32px;
