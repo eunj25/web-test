@@ -7,15 +7,25 @@
     width: 100%;
     padding: 10vw;
   }
+  section.table .inner {
+    padding-top: 5vw;
+  }
   section.video .content .item .photo > div {
     height: 27.0833vw;
-  }
-  section.paper .items {
-    flex-wrap: wrap;
   }
   section.paper .item {
     width: 331px;
     flex-wrap: wrap;
+  }
+  section.video .list .tit {
+    font-size: var(--hd-02)
+
+  }
+  section.video .list ul li {
+    font-size: var(--hd-04)
+  }
+  section.video .list .tit::before {
+    font-size: var(--hd-02)
   }
 }
 
