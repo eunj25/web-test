@@ -1,0 +1,603 @@
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+  body {
+    width: 100%;
+  } 
+  section .inner {
+    width: 100%;
+    padding: 10vw;
+  }
+  section.video .content .item .photo > div {
+    height: 27.0833vw;
+  }
+  section.paper .items {
+    flex-wrap: wrap;
+  }
+  section.paper .item {
+    width: 331px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    width: 100%;
+  } 
+  section .inner {
+    width: 100%;
+  }
+  section .inner h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .badge {
+    font-size: 40px;
+  }
+/* ********* section.intro ********* */
+section.intro {
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+}
+section.intro .photo {
+  width: 417px;
+  height: 138px;
+  right: 80px;
+  bottom: 80px;
+}
+section.intro .inner {
+  font-size: 32px;
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+section.intro .inner h1 {
+  padding: 0 70px;
+}
+section.intro .inner h2 {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 0;
+  padding: 0 70px;
+}
+section.intro .inner h2 b {
+  font-size: 60px !important;
+  font-weight: var(--font-sb);
+  margin-left: 20px;
+}
+section.intro .inner .btn-box {
+  padding: 0 60px;
+}
+/* ********* section.table ********* */
+  section.table .inner {
+    width: 100%;
+    padding: 150px 0;
+  }
+  section.table p {
+    font-size: 18px;
+    padding: 30px 0;
+    width: 100%;
+  }
+  section.table .table-box {
+    width: 100%;
+    min-width: 500px;
+    max-width: 923px;
+    box-sizing: border-box;
+    padding: 0 50px;
+  }
+
+/* ********* section.banner ********* */
+  section.banner .inner {
+    width: 100%;
+    gap: 30px;
+    padding: 150px 9vw;
+  }
+  section.banner .title  {
+    flex: 1.2;
+  }
+  section.banner .title h2 {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  section.banner .title b {
+    font-size: 1.25rem;
+  }
+  section.banner .desc {
+    font-size: 1rem;
+    width: 100%;
+    flex: 2;
+  }
+/* ********* section.ani-banner ********* */
+  section.ani-banner .inner {
+    width: 100%;
+    justify-content: center;
+    padding: 150px 0;
+  }
+  section.ani-banner .title {
+    height: 50px;
+  }
+  section.ani-banner .title h2 {
+    font-size: 32px;
+  }
+  section.ani-banner .desc h2 {
+    text-align: left;
+  }
+  section.ani-banner .desc {
+    font-size: 20px;
+  }
+/* ********* section.paper ********* */
+  section.paper .inner {
+    width: 100%;
+    padding: 150px 0;
+
+  }
+  section.paper .items { 
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  section.paper .item { 
+    min-width: 331px;
+    max-width: 331px;
+  }
+  section.paper .item .item-title {
+    font-size: 24px;
+  }
+  section.paper .comment h2 {
+    font-size: 24px;
+  }
+/* ********* section.video ********* */
+  section.video .inner {
+    padding: 150px 0;
+    width: 100%;
+  }
+  section.video .title h2 {
+    font-size: 40px;
+  }
+  section.video .content .item .photo > div {
+    width: 100%;
+    min-width: 100px;
+    max-width: 441px;
+    width: 441px;
+    height: 247px;
+  }
+  section.video .card {
+    padding: 1.25rem 1.25rem; 
+  }
+  section.video .card h3 {
+    font-size: 2rem;
+  }
+  section.video .card .desc {
+    font-size: 1.25rem;
+  }
+  section.video .list {
+    gap: 40px;
+  }
+  section.video .list .tit {
+    font-size: 1.125rem;
+  }
+  section.video .list ul li {
+    font-size: 0.875rem;
+  }
+  section.video .content {
+    padding: 50px 50px 0 50px;
+  }
+  section.video .content-box .items {
+    padding: 0 3.125rem;
+    gap: 30px;
+  }
+  section.video .content .item .desc {
+    padding-left: 5px;
+  }
+  section.video .content .item:nth-child(even) .desc {
+    padding: 0 0px 20px 20px;
+  }
+  section.video .content .item .desc h4 {
+    font-size: 18px;
+  }
+  section.video .content .item .desc h3 {
+    font-size: 28px;
+  }
+  section.video .content .item .desc ul {
+    font-size: 1rem;
+  }
+  section.video .content .item .photo::after {
+    right: -25px;
+  }
+  section.video .content .item:nth-child(1) .photo::after {
+    width: 54px;
+    height: 68px;
+  }
+  section.video .content .item:nth-child(2) .photo::after {
+    width: 53px;
+    height: 70px;
+    left: -25px;
+  }
+  section.video .content .item:nth-child(3) .photo::after {
+    width: 87px;
+    height: 58px;
+    left: 380px;
+  }
+  section.video .content .item:nth-child(4) .photo::after {
+    width: 65px;
+    height: 70px;
+    left: -25px;
+  }
+
+  section.card-list .card-box {
+    padding: 0 50px;
+    gap: 24px;
+  }
+  section.card-list.business h2,
+  section.card-list h2 {
+    text-align: left;
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+  section.card-list .card {
+    width: calc((100%/2) - 14px);
+    min-width: 163px;
+    max-width: 438px;
+  }
+  section.event .tab-box a {
+    font-size: 1.5rem;
+  }
+  section.card-list .inner {
+    padding: 150px 0;
+  }
+  section.card-list .card .photo {
+    height: 30vw;
+  }
+  section.event .tab-box {
+    padding: 0 50px;
+  }
+  section.event .card-box {
+    padding: 0 50px;
+  }
+  section.short-banner {
+    /* height: 30vh; */
+    overflow: hidden;
+  }
+  section.short-banner .inner {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 50px;
+  }
+  section.short-banner .logo {
+    width: 210px;
+    height: 72px;
+  }
+  section.short-banner .text {
+    font-size: 24px;
+  }
+  section.short-banner::before {
+    left: 100%;
+  }
+}
+
+
+	
+@media (min-width: 321px) and (max-width: 768px) {
+  body {
+    width: 100%;
+  } 
+  section .inner {
+    width: 100%;
+  }
+  section .inner h2 {
+    font-size: 1.875rem;
+    text-align: center;
+  }
+  .badge {
+    font-size: 40px;
+  }
+  button {
+    font-size: 12px;
+  }
+/* ********* section.intro ********* */
+section.intro {
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+section.intro .photo {
+  width: 100%;
+  min-width: 295px;
+  right: 0%;
+  top: 80px;
+}
+section.intro .inner {
+  font-size: 32px;
+  padding-top: 16.875rem;
+}
+section.intro .inner h1 {
+  padding: 0 12px;
+  font-size: 20px;
+  text-wrap: balance;
+}
+section.intro .inner h2 {
+  font-size: 0.875rem;
+  text-align: left;
+  margin-top: 20vw;
+  margin-bottom: 0;
+  padding: 0 12px;
+}
+section.intro .inner h2 b {
+  font-size: 32px !important;
+  font-weight: var(--font-sb);
+  margin-left: 0;
+  display: block;
+}
+section.intro .inner .btn-box {
+  padding: 1.25rem 0.125rem;
+}
+/* ********* section.table ********* */
+  section.table .inner {
+    width: 100%;
+    padding: 6.25rem 0;
+  }
+  section.table p {
+    font-size: 0.875rem;
+    padding: 5vw;
+    width: 100%;
+  }
+  section.table .table-box {
+    width: 100%;
+    min-width: 300px;
+    max-width: 923px;
+    padding: 0 12px;
+    box-sizing: border-box;
+  }
+
+/* ********* section.banner ********* */
+  section.banner .inner {
+    width: 100%;
+    gap: 35px;
+    padding: 6.25rem 3vw;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  section.ani-banner .inner::after {
+    left: -13%;
+    top: 3%;
+}
+  section.banner .title  {
+    flex: 1;
+  }
+  section.banner .title h2 {
+    font-size: 1.875rem;
+    text-align: left;
+  }
+  section.banner .title b {
+    font-size: 1.125rem;
+  }
+  section.banner .desc {
+    font-size: 0.875rem;
+    width: 100%;
+    flex: 1;
+  }
+/* ********* section.ani-banner ********* */
+  section.ani-banner .inner {
+    width: 100%;
+    padding: 6.25rem 3vw;
+    flex-direction: column;
+    align-items: normal
+  }
+  section.ani-banner .title {
+    height: 40px;
+  }
+  section.ani-banner .title h2 {
+    width: 100%;
+    min-width: 340px;
+    font-size: 1.5rem;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+  }
+  section.ani-banner .title h2 b {
+    width: 100%;
+    text-align: left;
+  }
+  section.ani-banner .desc h2 {
+    text-align: left;
+    font-size: 1.25rem ;
+  }
+
+/* ********* section.paper ********* */
+  section.paper .inner {
+    width: 100%;
+    padding: 6.25rem 0;
+  }
+  section.paper .inner h2 {
+    text-align: left;
+    padding: 0 3vw;
+    margin-bottom: 3.125rem;
+  }
+  section.paper .items { 
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    padding: 0 0.75rem;
+  }
+  section.paper .item { 
+    min-width: 331px;
+    max-width: 100%;
+  }
+  section.paper .item .item-title {
+    font-size: 1.5rem;
+  }
+  section.paper .comment h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+/* ********* section.video ********* */
+  section.video .inner {
+    padding: 6.25rem 0;
+    width: 100%;
+  }
+  section.video h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 3vw;
+    margin-bottom: 3.125rem;
+  }
+  section.video .content .item .photo > div {
+    min-width: 336px;
+    max-width: 100%;
+    height: 51vw;
+    /* max-height: 393.31px; */
+  }
+  section.video .content .item .photo > div img {
+    object-fit: cover;
+  }
+  section.video .card {
+    padding: 1.25rem 1rem; 
+  }
+  section.video .card h3 {
+    font-size: 1.5rem;
+  }
+  section.video .card .desc {
+    font-size: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .625rem;
+  }
+  section.video .card .desc button {
+    margin: 0;
+  }
+  section.video .list {
+    gap: 1.25rem;
+  }
+  section.video .list .tit {
+    font-size: 1.125rem;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+  }
+  section.video .list .tit::before {
+    left: -40px;
+    top: 0px;
+}
+  section.video .list ul li {
+    font-size: 0.875rem;
+  }
+  section.video .content {
+    padding: 0.75rem 0.75rem 0 0.75rem;
+  }
+  section.video .content-box .items {
+    padding: 0 3vw;
+    gap: 30px;
+    flex-direction: column;
+  }
+  section.video .content .item {
+    flex-direction: column;
+  }
+  section.video .content .item .desc {
+    padding-left: 0;
+    width: 100%;
+    border: none;
+  }
+  section.video .content .item:nth-child(even) {
+    padding: 3.75rem 0;
+}
+  section.video .content .item:nth-child(even) .desc {
+    padding: 0 0px 0 0;
+  }
+  section.video .content .item:nth-child(even) .photo {
+    order: 0;
+  }
+  section.video .content .item:nth-child(even) .desc {
+    order: 1;
+  }
+  section.video .content .item .desc h4 {
+    font-size: 18px;
+  }
+  section.video .content .item .desc h3 {
+    font-size: 28px;
+  }
+  section.video .content .item .desc ul {
+    font-size: 1rem;
+  }
+  section.video .content .item .photo::after {
+    right: 30px;
+    bottom: -20px;
+  }
+  section.video .content .item:nth-child(1) .photo::after {
+    width: 54px;
+    height: 68px;
+  }
+  section.video .content .item:nth-child(2) .photo::after {
+    width: 53px;
+    height: 70px;
+  }
+  section.video .content .item:nth-child(3) .photo::after {
+    width: 87px;
+    height: 58px;
+    left: 75%;
+  }
+  section.video .content .item:nth-child(4) .photo::after {
+    width: 65px;
+    height: 70px;
+  }
+
+  section.card-list .card-box {
+    padding: 0 12px;
+    gap: 24px;
+  }
+  section.card-list.business h2,
+  section.card-list h2 {
+    text-align: left;
+    padding: 0 12px;
+    margin-bottom: 50px;
+  }
+  section.card-list.business .tit h3,
+  section.card-list .card .tit h3 {
+    font-size: 16px;
+  }
+  section.card-list .card {
+    width: 100%;
+    min-width: 163px;
+    max-width: 100%;
+  }
+  section.card-list .card .photo {
+    height: 60vw;
+  }
+  section.card-list .inner {
+    padding: 6.25rem 0;
+  }
+  section.event .tab-box {
+    padding: 0 12px;
+  }
+  section.event .card-box {
+    padding: 0 12px;
+  }
+  section.event .tab-box a {
+    font-size: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  section.logo-list .logo-img {
+    width: 112px;
+    height: 45px;
+  }
+
+  section.short-banner {
+    height: 30vh;
+    overflow: hidden;
+  }
+  section.short-banner .inner {
+    width: 100%;
+    height: 100%;
+    padding: 10vw 3vw;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  section.short-banner .logo {
+    width: 210px;
+    height: 72px;
+  }
+  section.short-banner .text {
+    font-size: 16px;
+  }
+  section.short-banner::before {
+    left: 100%;
+  }
+}
