@@ -244,9 +244,6 @@ section.intro .inner .btn-box {
   section.card-list .inner {
     padding: 150px 0;
   }
-  section.card-list .card .photo {
-    height: 30vw;
-  }
   section.event .tab-box {
     padding: 0 50px;
   }
@@ -444,7 +441,6 @@ section.intro .inner .btn-box {
     min-width: 336px;
     max-width: 100%;
     height: 51vw;
-    /* max-height: 393.31px; */
   }
   section.video .content .item .photo > div img {
     object-fit: cover;
