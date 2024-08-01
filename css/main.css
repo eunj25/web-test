@@ -81,6 +81,9 @@ body {
   color: var(--Gray1300);
   background-color: var(--WH);
 }
+section {
+  background-color: var(--WH);
+}
 section .inner {
   /* width: 1440px; */
   width: 72.5000vw;
