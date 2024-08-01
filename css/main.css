@@ -335,8 +335,9 @@ section.table p {
 section.table .table-box {
   /* min-width: 500px; */
   /* width: 964px; */
-  width: 66.9444vw;
+  width: 65vw;
   margin: auto;
+  padding: 0 3vw;
 }
 
 

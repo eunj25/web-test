@@ -39,6 +39,9 @@
   section.short-banner .inner {
     padding: 85px 5vw;
   }
+  section.table .table-box {
+    width: 50vw;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
