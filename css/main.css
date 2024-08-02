@@ -358,8 +358,18 @@ section.video .title {
 section.video .title h2 {
   font-size: var(--dis-01);
 }
+section.video h3 {
+  text-align: left;
+}
+section.video h3 span {
+  display: block;
+  font-size: var(--hd-02);
+}
 section.video  h2 {
   background-color: rgba(255, 0, 0, 0.329);
+}
+section.video .card .btn-box {
+  text-align: right;
 }
 /* video-box */
 section.video .video-box {

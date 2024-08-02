@@ -197,6 +197,9 @@ section.intro .inner .btn-box {
   section.video .card h3 {
     font-size: 1.8rem;
   }
+  section.video .card h3 span {
+    font-size: 1.8rem;
+  }
   section.video .card .desc {
     font-size: 1.25rem;
   }
@@ -495,6 +498,9 @@ section.intro .inner .btn-box {
     padding: 1.25rem 1rem; 
   }
   section.video .card h3 {
+    font-size: 1.5rem;
+  }
+  section.video .card h3 span {
     font-size: 1.5rem;
   }
   section.video .card .desc {
