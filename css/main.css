@@ -274,7 +274,7 @@ section.ani-banner {
 
 /* ********* section.paper ********* */
 section.paper {
-  background-color: var(--Blue100);
+  background-color: var(--WH);
 }
 section.paper .items { 
   display: flex;
@@ -358,7 +358,9 @@ section.video .title {
 section.video .title h2 {
   font-size: var(--dis-01);
 }
-
+section.video  h2 {
+  background-color: rgba(255, 0, 0, 0.329);
+}
 /* video-box */
 section.video .video-box {
   width: 100%;
